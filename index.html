@@ -11,7 +11,25 @@
   </head>
 
   <body>
-    <h1>ISS Location</h1>
+    <div class="header">
+      <h1>International Space Station</h1>
+      <div id="map"></div>
+    </div>
+
+    <div id="iss-location-data">
+      <p>Longitude: <span id="longi"></span></p>
+      <p>Latitude: <span id="lati"></span></p>
+      <p>
+        Altitude:
+        <span id="alti"></span>
+        km
+      </p>
+      <p>
+        Velocity:
+        <span id="velo"></span>
+        km/h
+      </p>
+    </div>
 
     <script src="https://maps.googleapis.com/maps/js?key=AIzaSyCKGgi3rO8MCVRyPlWpGcpJLEa9NB91048=initMap"></script>
     <script src="main.js"></script>
